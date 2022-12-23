@@ -5,3 +5,7 @@
 1. Install dependencies: `pnpm i`
 1. Build the theme: `pnpm run build`
 1. Reload Discord to load the theme
+
+## Screenshot
+![Dark Mode](https://kawaiizenbo.me/assets/optimal-dark.png)
+![Dark Mode](https://kawaiizenbo.me/assets/optimal-light.png)
