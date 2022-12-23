@@ -1,16 +1,16 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "me.kawaiizenbo.optimalrp",
+  "name": "Optimal",
+  "description": "whatever",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "KawaiiZenbo",
+    "discordID": "287197076150812673",
+    "github": "kawaiizenbo"
   },
-  "version": "1.0.2",
+  "version": "1.2.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "kawaiizenbo/OptimalRP"
   },
   "license": "MIT",
   "type": "replugged-theme",
