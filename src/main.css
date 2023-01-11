@@ -191,7 +191,7 @@ div[id="user-context-call"]
 }
 
 /* fix channel typing indicator on light mode */
-.theme-light .channel-typing 
+.theme-light .channel-typing-indicator
 {
     filter: invert(1);
 }

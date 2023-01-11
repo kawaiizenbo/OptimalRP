@@ -7,7 +7,7 @@
     "discordID": "287197076150812673",
     "github": "kawaiizenbo"
   },
-  "version": "1.2.0",
+  "version": "1.2.2",
   "updater": {
     "type": "github",
     "id": "kawaiizenbo/OptimalRP"
