@@ -9,3 +9,6 @@
 ## Screenshot
 ![Dark Mode](https://kawaiizenbo.me/assets/optimal-dark.png)
 ![Dark Mode](https://kawaiizenbo.me/assets/optimal-light.png)
+
+## Notes
+Includes SettingsModel and FluentIcons

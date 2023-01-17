@@ -1,6 +1,5 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
 @import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
-@import url("https://overimagine1.github.io/old-discord-font/source.css");
 
 :root
 {
@@ -11,6 +10,7 @@
     --bg2: 35,25,45;
     --bg3: 30,20,40;
     --bg4: 25,15,35;
+    --bg5: 20,10,30;
 
 	/* SettingsModal */
 	--settingsmodalbackground:     transparent;            /* default:    transparent        (lowest bg color of changed windows, change it in case another theme turns them transparent)    */
@@ -123,10 +123,16 @@ div[id="user-context-call"]
     top: -3px;
 }
 
-/* reorder top bar and make search bar wider by default */
+/* reorder top bar and make search bar small by default */
 .searchBar-jGtisZ
 {
-    width: 210px;
+    width: 75px;
+    border-radius: 12px;
+}
+
+.children-3xh0VB:after
+{
+    display: none;
 }
 
 .iconWrapper-2awDjA 
@@ -137,13 +143,7 @@ div[id="user-context-call"]
 /* role indicator background on user popout */
 .role-2TIOKu 
 {
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
     border-radius: 12px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: inherit;
 }
 
 .roleCircle-1EgnFN 
@@ -152,25 +152,32 @@ div[id="user-context-call"]
     height: 5 !important;
 }
 
-/* server channel list backgrounds */
+/* server channels */
 .content-1gYQeQ 
 {
     background-color: var(--background-tertiary);
-    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(var(--bg5));
+    border-width: 0px 0px 0px 4px;
+    border-radius: 0px 25px 25px 0px;
 }
 
-/* red dot unread */
+.theme-light .content-1gYQeQ 
+{
+    border-color: rgb(215, 218, 222);
+}
+
 .unread-36eUEm 
 {
     z-index: 1;
     position: absolute;
-    height: 6px;
-    width: 6px;
-    border-radius: 50%;
-    top: 42%;
-    left: 1px;
+    height: 32px;
+    width: 4px;
+    border-radius: 0 0 0 0;
+    top: 1px;
+    left: 8px;
     margin-top: 0px;
-    background-color: rgba(var(--mention-colour));
+    background-color: rgb(var(--mention-colour));
 }
 
 /* message text box rounded all the way */
