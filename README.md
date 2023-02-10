@@ -1,4 +1,5 @@
 # Optimal Theme for Replugged
+[Install in Replugged](https://replugged.dev/install?identifier=me.kawaiizenbo.optimalrp&source=github)
 
 ## Install
 1. Clone this repository and cd into it
